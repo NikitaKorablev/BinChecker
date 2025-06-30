@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    >
+
+    <TextView
+        android:id="@+id/bin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/schemeLayout"
+                layout="@layout/bin_option1" />
+
+            <include
+                android:id="@+id/brandLayout"
+                layout="@layout/bin_option1" />
+
+            <include
+                android:id="@+id/cardNumberLayout"
+                layout="@layout/bin_option2" />
+
+            <include
+                android:id="@+id/typeLayout"
+                layout="@layout/bin_option1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/prepaidLayout"
+                layout="@layout/bin_option1" />
+
+            <include
+                android:id="@+id/countryLayout"
+                layout="@layout/bin_option3" />
+
+            <include
+                android:id="@+id/bankLayout"
+                layout="@layout/bin_option4" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

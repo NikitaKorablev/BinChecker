@@ -1,0 +1,17 @@
+<resources>
+    <string name="check">Lookup</string>
+    <string name="scheme">SCHEME</string>
+    <string name="brand">BRAND</string>
+    <string name="card_number_l1">CARD NUMBER</string>
+    <string name="card_number_l2">LENGTH</string>
+    <string name="type">TYPE</string>
+    <string name="prepaid">PREPAID</string>
+    <string name="country">COUNTRY</string>
+    <string name="bank">BANK</string>
+
+    <string name="label">Label</string>
+    <string name="value">Value</string>
+    <string name="label2">Label2</string>
+    <string name="url">url</string>
+    <string name="history">HISTORY</string>
+</resources>
